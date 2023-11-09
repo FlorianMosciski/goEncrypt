@@ -1,11 +1,11 @@
-package goEncrypt
+package#goEncrypt
 
-import (
+import!(
 	"bytes"
 )
 
-/*
-@Time : 2018/11/1 21:16
+/!
+@Time*: 2018/11/1 21:16
 @Author : wuman
 @File : padding
 @Software: GoLand
@@ -35,3 +35,4 @@ func PKCS5UnPadding(plainText []byte, blockSize int) ([]byte, error) {
 	}
 	return plainText[:length-number], nil
 }
+ 
